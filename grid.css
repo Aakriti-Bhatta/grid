@@ -36,3 +36,17 @@ h3+p{
 .grey{
     color: #D8DDE1;
 }
+h4{
+    color: white;
+}
+.article2 h4+p{
+    font-size: 14px;
+    color:#D8DDE1 ;
+}
+span{
+    font-size: 22px;
+    color: white;
+}
+.white{
+    color: white 
+}
