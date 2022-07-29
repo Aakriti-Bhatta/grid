@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    width: 800px;
+    width: 600px;
     /* height: 100vh; */
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
@@ -23,4 +23,16 @@
     grid-area: article3;
     padding: 20px 20px;
     background-color:#4ABEBD;
+}
+h3{
+    color: #7FD5CA;
+}
+p{
+    font-size: 16px;
+}
+h3+p{
+    color: #C8D777;
+}
+.grey{
+    color: #D8DDE1;
 }
