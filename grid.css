@@ -50,3 +50,20 @@ span{
 .white{
     color: white 
 }
+.btn{
+    
+        background-color: #BFDF32;
+        border-radius: 6px;
+        border: 1px solid #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 14px;
+        padding: 8px;
+        width: 200px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        
+}
