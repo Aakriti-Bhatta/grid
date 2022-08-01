@@ -1,69 +1,86 @@
-.container{
-    display: grid;
-    width: 600px;
-    /* height: 100vh; */
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    padding: 0px;
+    margin: 0px;
+  height: 100vh;
+  background-color: #e6eff6;
+  position: relative;
+}
+.grid {
+  display: grid;
+  background-color: #e6eff6;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fdfffc ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px  #96979b;
+  
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
     "article1 article1 article1 article1"
     "article2 article2 article3 article3"
     "article2 article2 article3 article3";
 }
-.article1{
-    grid-area: article1;
-    padding: 20px 20px;
-    background-color: white;
+.article1 {
+  grid-area: article1;
+  padding: 20px 20px;
+  background-color: white;
 }
-.article2{
-    grid-area: article2;
-    padding: 20px 20px;
-    background-color: #2BB3B1;
+.article2 {
+  grid-area: article2;
+  padding: 20px 20px;
+  background-color: #2bb3b1;
 }
-.article3{
-    grid-area: article3;
-    padding: 20px 20px;
-    background-color:#4ABEBD;
+.article3 {
+  grid-area: article3;
+  padding: 20px 20px;
+  background-color: #4abebd;
 }
-h3{
-    color: #7FD5CA;
+h3 {
+  color: #7fd5ca;
 }
-p{
-    font-size: 16px;
+p {
+  font-size: 16px;
 }
-h3+p{
-    color: #C8D777;
+h3 + p {
+  color: #c8d777;
 }
-.grey{
-    color: #D8DDE1;
+.grey {
+  color: #d8dde1;
 }
-h4{
-    color: white;
+h4 {
+  color: white;
 }
-.article2 h4+p{
-    font-size: 14px;
-    color:#D8DDE1 ;
+.article2 h4 + p {
+  font-size: 14px;
+  color: #d8dde1;
 }
-span{
-    font-size: 22px;
-    color: white;
+span {
+  font-size: 22px;
+  color: white;
 }
-.white{
-    color: white 
+.white {
+  color: white;
 }
-.btn{
-    
-        background-color: #BFDF32;
-        border-radius: 6px;
-        border: 1px solid #cccccc;
-        color: #eeeeee;
-        text-align: center;
-        font-size: 14px;
-        padding: 8px;
-        width: 200px;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s;
-        cursor: pointer;
-        
+.btn {
+  background-color: #bfdf32;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
 }
